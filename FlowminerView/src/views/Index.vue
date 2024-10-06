@@ -8,10 +8,10 @@
         <div class="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
           <div class="pt-32 sm:pt-0">
             <h2 class="font-semibold text-4xl text-blueGray-600">
-              Vue Notus - A beautiful extension for Tailwind CSS.
+              FLOWMINER - A beautiful extension for Tailwind CSS.
             </h2>
             <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-              Vue Notus is Free and Open Source. It does not change any of the
+              FLOWMINER is Free and Open Source. It does not change any of the
               CSS from
               <a
                 href="https://tailwindcss.com/?ref=creativetim"
@@ -121,7 +121,7 @@
                       CSS Components
                     </h6>
                     <p class="mb-4 text-blueGray-500">
-                      Vue Notus comes with a huge number of Fully Coded CSS
+                      FLOWMINER comes with a huge number of Fully Coded CSS
                       components.
                     </p>
                   </div>
@@ -170,7 +170,7 @@
                     </h6>
                     <p class="mb-4 text-blueGray-500">
                       Built by developers for developers. You will love how easy
-                      is to to work with Vue Notus.
+                      is to to work with FLOWMINER.
                     </p>
                   </div>
                 </div>
@@ -563,7 +563,7 @@
         <div class="w-full md:w-6/12 px-12 md:px-4">
           <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
           <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-            Vue Notus is a completly new product built using our past experience
+            FLOWMINERS is a completly new product built using our past experience
             in web templates. Take the examples we made for you and start
             playing with them.
           </p>
