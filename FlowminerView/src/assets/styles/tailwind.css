@@ -1,3 +1,5 @@
+@import 'flowbite';
+
 /*! tailwindcss v2.0.4 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -6,6 +8,12 @@
 Document
 ========
 */
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
 
 /**
 Use a better box model (opinionated).
@@ -1452,6 +1460,139 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(71, 85, 105, var(--tw-bg-opacity));
 }
+/* Custom background colors */
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 8, 8, var(--tw-bg-opacity));
+}
+
+.bg-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgba(112, 112, 112, var(--tw-bg-opacity));
+}
+
+.bg-darker-teal {
+  --tw-bg-opacity: 1;
+  background-color: rgba(20, 32, 32, var(--tw-bg-opacity));
+}
+
+.bg-dark-teal {
+  --tw-bg-opacity: 1;
+  background-color: rgba(10, 83, 83, var(--tw-bg-opacity));
+}
+
+.bg-teal {
+  --tw-bg-opacity: 1;
+  background-color: rgba(33, 117, 117, var(--tw-bg-opacity));
+}
+
+.bg-lighter-teal {
+  --tw-bg-opacity: 1;
+  background-color: rgba(152, 252, 252, var(--tw-bg-opacity));
+}
+
+.bg-slate {
+  --tw-bg-opacity: 1;
+  background-color: rgba(182, 201, 201, var(--tw-bg-opacity));
+}
+
+.bg-light-gray {
+  --tw-bg-opacity: 1;
+  background-color: rgba(231, 232, 232, var(--tw-bg-opacity));
+}
+
+.bg-green {
+  --tw-bg-opacity: 1;
+  background-color: rgba(14, 226, 49, var(--tw-bg-opacity));
+}
+
+.bg-pink-red {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 103, 169, var(--tw-bg-opacity));
+}
+
+.bg-lightYellow {
+  --tw-bg-opacity: 1;
+  background-color: rgba(245, 252, 152, var(--tw-bg-opacity));
+}
+
+.bg-primary-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(239, 246, 255, var(--tw-bg-opacity));
+}
+
+.bg-primary-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(219, 234, 254, var(--tw-bg-opacity));
+}
+
+.bg-primary-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(191, 219, 254, var(--tw-bg-opacity));
+}
+
+.bg-primary-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(147, 197, 253, var(--tw-bg-opacity));
+}
+
+.bg-primary-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(96, 165, 250, var(--tw-bg-opacity));
+}
+
+.bg-primary-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+}
+
+.bg-primary-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+}
+
+.bg-primary-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
+}
+
+.bg-primary-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 64, 175, var(--tw-bg-opacity));
+}
+
+.bg-primary-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(30, 58, 138, var(--tw-bg-opacity));
+}
+
+.bg-primary-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(23, 37, 84, var(--tw-bg-opacity));
+}
+
+.bg-sidebar {
+  background-image: linear-gradient(to bottom, #217575, #142020); /* dark-teal to darker-teal */
+}
+
+.bg-headerstats {
+  background-image: linear-gradient(to bottom, #BFBFAC, #A4ACA4); /* dark-teal to 217575-teal */
+}
+.bg-flowminer2 {
+  background-image: linear-gradient(to bottom, #F1EADD, #DBC8C0); /* dark-teal to 217575-teal */
+}
+
+.bg-flowminer3 {
+  background-image: linear-gradient(to bottom, #BFBFAC, #A4ACA4); /* dark-teal to 217575-teal */
+}
+
+.bg-flowminer4 {
+  background-image: linear-gradient(to bottom, #468B8B, #BFBFAC); /* dark-teal to 217575-teal */
+}
+.bg-fmgeneral {
+  background-image: linear-gradient(to bottom, #A4ACA4, #CAD1CA); /* dark-teal to 217575-teal */
+}
+
 
 .bg-none {
   background-image: none;

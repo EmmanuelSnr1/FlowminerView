@@ -1,9 +1,8 @@
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
-import 'flowbite';
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import "@/assets/styles/tailwind.css";  // Make sure this path is correct
-import '@/assets/styles/index.css';  // Ensure this is required or comment it out if duplicate
+import './assets/styles/tailwind.css';  // Link to your Tailwind CSS setup
+
 
 import App from './App.vue';
 import router from './router';
